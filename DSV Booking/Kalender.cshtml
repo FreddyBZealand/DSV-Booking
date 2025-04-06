@@ -1,0 +1,39 @@
+﻿@page
+@model DSV_Booking.KalenderModel
+@{
+}
+   internal class Kalender
+       {
+    #region Instance fields
+    private string _username;
+    private string _timeslot;
+    #endregion
+
+    #region Constructor
+    public Kalender(string username, string timeslot)
+    {
+        _username = username;
+        _timeslot = timeslot;
+    }
+    #endregion
+
+    #region Properties
+
+    public string username
+    {
+        get { return _username; }
+        set { _username = value; }
+
+    }
+
+    public string timeslot
+    {
+        get { return _timeslot; }
+        set { _timeslot = value; }
+    }
+    #endregion
+
+    #region Methods
+    public override string ToString() => $" - timeslot : {timeslot} - username {username} ";
+    #endregion
+        }
