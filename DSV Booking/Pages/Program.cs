@@ -1,6 +1,6 @@
-using static DSV_Booking.BookingModel
-using static DSV_Booking.KalenderModel
-using static DSV_Booking.MødelokaleModel
+using static DSV_Booking.BookingModel;
+using static DSV_Booking.KalenderModel;
+using static DSV_Booking.MødelokaleModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
